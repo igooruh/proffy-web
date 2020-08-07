@@ -19,6 +19,8 @@
     --color-button-text: #FFFFFF;
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
+
+
 }
 
 * {
@@ -27,12 +29,14 @@
     box-sizing: border-box;
 }
 
-html, body, #root {
+html,
+body,
+#root {
     height: 100vh;
 }
 
 body {
-    background: var(--color-background);
+    background-color: var(--color-background);
 }
 
 #root {
@@ -43,9 +47,12 @@ body {
 
 body,
 input,
-button,
-textarea {
+textarea,
+button {
     font: 500 1.6rem Poppins;
+    /* O rem pega o meu valor padrão font-size e aumenta em 60%
+    isso facilita a vda quando vamos trabalhar com acessibilidade e
+    deixa a aplicação mais responsiva*/
 }
 
 .container {
@@ -53,6 +60,7 @@ textarea {
     max-width: 700px;
 }
 
+/* Quando a tela for menor do que 700px */
 @media (min-width: 700px) {
     :root {
         font-size: 62.5%;

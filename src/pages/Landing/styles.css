@@ -6,12 +6,13 @@
     justify-content: center;
     align-items: center;
 
-    color:  var(--color-text-in-primary);
-    background: var(--color-primary);
+    color: var(--color-text-in-primary);
+    background-color: var(--color-primary);
 }
 
 .logo-container img {
     height: 10rem;
+
 }
 
 .hero-image {
@@ -20,6 +21,7 @@
 
 .logo-container {
     text-align: center;
+
     margin-bottom: 3.2rem;
 }
 
@@ -41,7 +43,7 @@
     height: 10.4rem;
     border-radius: 0.8rem;
     font: 700 2.0rem Archivo;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,31 +60,29 @@
 
 .buttons-container a img {
     width: 4rem;
+    margin-right: 2.4rem;
 }
 
 .buttons-container a.study {
-    background: var(--color-primary-lighter);
+    background-color: var(--color-primary-lighter);
 }
 
 .buttons-container a.give-classes {
-    background: var(--color-secundary);
+    background-color: var(--color-secundary);
 }
+
 .buttons-container a.study:hover {
-    background: var(--color-primary-light);
+    background-color: var(--color-primary-light);
 }
 
 .buttons-container a.give-classes:hover {
-    background: var(--color-secundary-dark);
+    background-color: var(--color-secundary-dark);
 }
 
 .total-connections {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.total-connections img {
-    margin-left: 0.8rem;
 }
